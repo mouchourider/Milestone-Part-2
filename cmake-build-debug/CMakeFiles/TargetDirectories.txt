@@ -1,0 +1,3 @@
+/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles/Milestone-Part-2.dir
+/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g   CMakeFiles/Milestone-Part-2.dir/main.cpp.o  -o Milestone-Part-2 

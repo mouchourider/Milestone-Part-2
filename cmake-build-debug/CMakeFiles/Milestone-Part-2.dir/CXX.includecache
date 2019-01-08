@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/newbuntu/Desktop/Milestone-Part-2/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+string
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
