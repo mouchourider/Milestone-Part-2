@@ -8,7 +8,7 @@
 #include "CacheManager.h"
 #include "StringReverser.h"
 
-using namespace std
+using namespace std;
 
 string StringReverser::solve(string entry) {
     return string();

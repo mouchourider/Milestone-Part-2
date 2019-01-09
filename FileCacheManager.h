@@ -11,7 +11,7 @@
 #include "CacheManager.h"
 using namespace std;
 
-class MyTestClientHandler : public ClientHandler {
+class FileCacheManager : public CacheManager {
     map<string, string> stringMap;
 };
 #endif //UNTITLED1_FILECACHEMANAGER_H
