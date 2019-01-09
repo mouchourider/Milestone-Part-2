@@ -84,10 +84,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/CacheManager.h">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
 		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/ClientHandler.h">
 			<Option target="Milestone-Part-2"/>
 		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/FileCacheManager.cpp">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/FileCacheManager.h">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.cpp">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.h">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.cpp">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.h">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
 		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/Server.h">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/Solver.h">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/StringReverser.cpp">
+			<Option target="Milestone-Part-2"/>
+		</Unit>
+		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/StringReverser.h">
 			<Option target="Milestone-Part-2"/>
 		</Unit>
 		<Unit filename="/home/newbuntu/Desktop/Milestone-Part-2/main.cpp">

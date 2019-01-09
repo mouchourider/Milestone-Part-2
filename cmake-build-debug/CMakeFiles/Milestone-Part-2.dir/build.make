@@ -70,17 +70,77 @@ CMakeFiles/Milestone-Part-2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Milestone-Part-2.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/newbuntu/Desktop/Milestone-Part-2/main.cpp -o CMakeFiles/Milestone-Part-2.dir/main.cpp.s
 
+CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.o: CMakeFiles/Milestone-Part-2.dir/flags.make
+CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.o: ../MySerialServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.o -c /home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.cpp
+
+CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.cpp > CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.i
+
+CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.cpp -o CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.s
+
+CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.o: CMakeFiles/Milestone-Part-2.dir/flags.make
+CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.o: ../MyTestClientHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.o -c /home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.cpp
+
+CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.cpp > CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.i
+
+CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.cpp -o CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.s
+
+CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o: CMakeFiles/Milestone-Part-2.dir/flags.make
+CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o: ../StringReverser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o -c /home/newbuntu/Desktop/Milestone-Part-2/StringReverser.cpp
+
+CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/newbuntu/Desktop/Milestone-Part-2/StringReverser.cpp > CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.i
+
+CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/newbuntu/Desktop/Milestone-Part-2/StringReverser.cpp -o CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.s
+
+CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.o: CMakeFiles/Milestone-Part-2.dir/flags.make
+CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.o: ../FileCacheManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.o -c /home/newbuntu/Desktop/Milestone-Part-2/FileCacheManager.cpp
+
+CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/newbuntu/Desktop/Milestone-Part-2/FileCacheManager.cpp > CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.i
+
+CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/newbuntu/Desktop/Milestone-Part-2/FileCacheManager.cpp -o CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.s
+
 # Object files for target Milestone-Part-2
 Milestone__Part__2_OBJECTS = \
-"CMakeFiles/Milestone-Part-2.dir/main.cpp.o"
+"CMakeFiles/Milestone-Part-2.dir/main.cpp.o" \
+"CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.o" \
+"CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.o" \
+"CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o" \
+"CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.o"
 
 # External object files for target Milestone-Part-2
 Milestone__Part__2_EXTERNAL_OBJECTS =
 
 Milestone-Part-2: CMakeFiles/Milestone-Part-2.dir/main.cpp.o
+Milestone-Part-2: CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.o
+Milestone-Part-2: CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.o
+Milestone-Part-2: CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o
+Milestone-Part-2: CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.o
 Milestone-Part-2: CMakeFiles/Milestone-Part-2.dir/build.make
 Milestone-Part-2: CMakeFiles/Milestone-Part-2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Milestone-Part-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Milestone-Part-2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Milestone-Part-2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

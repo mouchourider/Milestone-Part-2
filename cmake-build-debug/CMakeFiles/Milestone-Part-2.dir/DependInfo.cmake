@@ -4,6 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/newbuntu/Desktop/Milestone-Part-2/FileCacheManager.cpp" "/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.o"
+  "/home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.cpp" "/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.o"
+  "/home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.cpp" "/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.o"
+  "/home/newbuntu/Desktop/Milestone-Part-2/StringReverser.cpp" "/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o"
   "/home/newbuntu/Desktop/Milestone-Part-2/main.cpp" "/home/newbuntu/Desktop/Milestone-Part-2/cmake-build-debug/CMakeFiles/Milestone-Part-2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
