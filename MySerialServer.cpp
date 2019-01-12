@@ -8,6 +8,7 @@
 #include <cstdlib>
 #include <iostream>
 #include "MySerialServer.h"
+#include "Server.h"
 using namespace std;
 
 void MySerialServer::start(int sockfd) {

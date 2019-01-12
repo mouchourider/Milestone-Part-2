@@ -6,7 +6,6 @@
 #define UNTITLED1_MYSERIALSERVER_H
 #include "Server.h"
 using namespace std;
-using namespace server_side;
 
 class MySerialServer : server_side::Server{
 public:

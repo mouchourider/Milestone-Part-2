@@ -6,10 +6,9 @@
 #define UNTITLED1_SOLVER_H
 using namespace std;
 
-template <class T>
-
 class Solver {
 public:
+    template <class T>
     T solve(T Problem);
 };
 #endif //UNTITLED1_SOLVER_H

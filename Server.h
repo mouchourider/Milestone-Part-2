@@ -3,8 +3,8 @@
 //
 #ifndef UNTITLED1_SERVER_H
 #define UNTITLED1_SERVER_H
+#include "MySerialServer.h"
 #include "ClientHandler.h"
-using namespace std;
 
 namespace server_side {
     class Server {
@@ -13,7 +13,7 @@ namespace server_side {
         // pure virtual function
         virtual void open(int port, ClientHandler c) = 0;
 
-        virtual void stop();
+        virtual void stop() = 0;
     };
 }
 
