@@ -12,12 +12,15 @@
 #include "ClientHandler.h"
 #include "CacheManager.h"
 using namespace std;
-class MyTestClientHandler : public ClientHandler<string,string> {
+class MyTestClientHandler : public ClientHandlerB<string,string> {
 public:
+    MyTestClientHandler(CacheManager *cm, Solver *solver);
 
     void handleClient(string inputStream, string outputStream) override;
 
-    MyTestClientHandler(CacheManager<string, string> *cm, Solver *solver);
 };
+
+
+
 
 #endif //UNTITLED1_MYTESTCLIENTHANDLER_H

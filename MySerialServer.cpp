@@ -7,17 +7,17 @@
 #include <errno.h>
 #include <cstdlib>
 #include <iostream>
+#include <thread>
 #include "MySerialServer.h"
 #include "Server.h"
 
 using namespace std;
 
 
-MySerialServer::MySerialServer(int port, ClientHandler<string, string> *ch) : Server(port, ch) {}
+MySerialServer::MySerialServer(int port, ClientHandler *ch) : Server(port, ch) {}
 
 
-void MySerialServer::open(int port, ClientHandler<string, string> *c) {
-
+void MySerialServer::open(int port, ClientHandler *c) {
     int s = socket(AF_INET, SOCK_STREAM, 0);
     struct sockaddr_in serv;
     serv.sin_addr.s_addr = INADDR_ANY;
@@ -36,12 +36,14 @@ void MySerialServer::open(int port, ClientHandler<string, string> *c) {
 
     setsockopt(s, SOL_SOCKET, SO_RCVTIMEO, (char *)&timeout, sizeof(timeout));
     this->sockfd = s;
-    start(s);
+    //thread start_routine(&MySerialServer::start,this , sockfd, c);
+    //start_routine.join();
 }
 
 
-void MySerialServer::start(int port) {
+void MySerialServer::start(int port, int sockfd, ClientHandler* ch) {
     int new_sock;
+    bool shouldStop = false;
     struct sockaddr_in client;
     socklen_t clilen = sizeof(client);
 
@@ -61,8 +63,6 @@ void MySerialServer::start(int port) {
             exit(3);
         }
     }
-    cout << new_sock << endl;
-    cout << sockfd << endl;
 }
 
 void MySerialServer::stop() {

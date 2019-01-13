@@ -6,11 +6,5 @@
 #include "MyTestClientHandler.h"
 
 
-
-void MyTestClientHandler::handleClient(string inputStream, string outputStream) {
-
-}
-
-MyTestClientHandler::MyTestClientHandler(CacheManager<string, string> *cm, Solver *solver) : ClientHandler(cm, solver) {
-
-}
+void MyTestClientHandler::handleClient(string inputStream, string outputStream) {}
+MyTestClientHandler::MyTestClientHandler(CacheManager *cm, Solver *solver) : ClientHandlerB(cm, solver) {}

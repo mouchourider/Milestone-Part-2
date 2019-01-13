@@ -12,13 +12,13 @@ class MySerialServer : public server_side::Server<string,string>{
 public:
     int sockfd;
 
-    void start(int port);
+    void start(int port, int sockfd, ClientHandler *ch);
 
     void stop() override;
 
-    void open(int port, ClientHandler<string, string> *c) override;
+    void open(int port, ClientHandler *c) override;
 
-    MySerialServer(int port, ClientHandler<string, string> *ch);
+    MySerialServer(int port, ClientHandler *ch);
 };
 
 

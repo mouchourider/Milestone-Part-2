@@ -5,11 +5,12 @@
 #ifndef UNTITLED1_CACHEMANAGER_H
 #define UNTITLED1_CACHEMANAGER_H
 #include <string>
+#include <map>
 using namespace std;
 
-template <class T, class S>
-class CacheManager {
-public:
+class CacheManager {};
+
+template <class T, class S> struct CacheManagerB: CacheManager{
     virtual bool exist(T key) = 0;
     virtual S get(T key) = 0;
     virtual void set(T key, S value) = 0;

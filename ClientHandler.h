@@ -7,17 +7,20 @@
 
 #include "CacheManager.h"
 #include "Solver.h"
+#include "iostream"
 using namespace std;
 
-template <class T, class S>
-class ClientHandler {
-    CacheManager<T,S>* cm;
+struct ClientHandler { virtual ~ClientHandler() = default; };
 
+
+template <class T, class S> struct ClientHandlerB : ClientHandler {
+private:
+    CacheManager* cm;
     Solver* solver;
 public:
-    ClientHandler(CacheManager<T, S> *cm, Solver *solver) : cm(cm), solver(solver) {}
+    virtual void handleClient(S inputStream,T outputStream) = 0;
 
-    virtual void handleClient(T inputStream,S outputStream) = 0;
+    ClientHandlerB(CacheManager *cm, Solver *solver) : cm(cm), solver(solver) {}
 };
 
 #endif //UNTITLED1_CLIENTHANDLER_H
