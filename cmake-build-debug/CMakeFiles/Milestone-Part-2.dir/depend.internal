@@ -8,12 +8,18 @@ CMakeFiles/Milestone-Part-2.dir/FileCacheManager.cpp.o
  /home/newbuntu/Desktop/Milestone-Part-2/FileCacheManager.h
  /home/newbuntu/Desktop/Milestone-Part-2/Solver.h
 CMakeFiles/Milestone-Part-2.dir/MySerialServer.cpp.o
+ /home/newbuntu/Desktop/Milestone-Part-2/CacheManager.h
  /home/newbuntu/Desktop/Milestone-Part-2/ClientHandler.h
  /home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.cpp
  /home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.h
  /home/newbuntu/Desktop/Milestone-Part-2/Server.h
+ /home/newbuntu/Desktop/Milestone-Part-2/Solver.h
 CMakeFiles/Milestone-Part-2.dir/MyTestClientHandler.cpp.o
+ /home/newbuntu/Desktop/Milestone-Part-2/CacheManager.h
+ /home/newbuntu/Desktop/Milestone-Part-2/ClientHandler.h
  /home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.cpp
+ /home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.h
+ /home/newbuntu/Desktop/Milestone-Part-2/Solver.h
 CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o
  /home/newbuntu/Desktop/Milestone-Part-2/CacheManager.h
  /home/newbuntu/Desktop/Milestone-Part-2/ClientHandler.h
@@ -21,4 +27,12 @@ CMakeFiles/Milestone-Part-2.dir/StringReverser.cpp.o
  /home/newbuntu/Desktop/Milestone-Part-2/StringReverser.cpp
  /home/newbuntu/Desktop/Milestone-Part-2/StringReverser.h
 CMakeFiles/Milestone-Part-2.dir/main.cpp.o
+ /home/newbuntu/Desktop/Milestone-Part-2/CacheManager.h
+ /home/newbuntu/Desktop/Milestone-Part-2/ClientHandler.h
+ /home/newbuntu/Desktop/Milestone-Part-2/FileCacheManager.h
+ /home/newbuntu/Desktop/Milestone-Part-2/MySerialServer.h
+ /home/newbuntu/Desktop/Milestone-Part-2/MyTestClientHandler.h
+ /home/newbuntu/Desktop/Milestone-Part-2/Server.h
+ /home/newbuntu/Desktop/Milestone-Part-2/Solver.h
+ /home/newbuntu/Desktop/Milestone-Part-2/StringReverser.h
  /home/newbuntu/Desktop/Milestone-Part-2/main.cpp

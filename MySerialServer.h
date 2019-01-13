@@ -5,15 +5,21 @@
 #ifndef UNTITLED1_MYSERIALSERVER_H
 #define UNTITLED1_MYSERIALSERVER_H
 #include "Server.h"
+using namespace server_side;
 using namespace std;
 
-class MySerialServer : server_side::Server{
+class MySerialServer : public server_side::Server<string,string>{
 public:
-    void open(int port, ClientHandler c) override;
+    int sockfd;
 
     void start(int port);
 
     void stop() override;
+
+    void open(int port, ClientHandler<string, string> *c) override;
+
+    MySerialServer(int port, ClientHandler<string, string> *ch);
 };
+
 
 #endif //UNTITLED1_MYSERIALSERVER_H

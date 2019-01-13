@@ -3,15 +3,18 @@
 //
 #ifndef UNTITLED1_SERVER_H
 #define UNTITLED1_SERVER_H
-#include "MySerialServer.h"
 #include "ClientHandler.h"
 
 namespace server_side {
+    template <class T, class S>
     class Server {
+        int port;
+        ClientHandler<T,S> *ch;
     public:
-        int sockfd;
         // pure virtual function
-        virtual void open(int port, ClientHandler c) = 0;
+        virtual void open(int port, ClientHandler<T,S> *c) = 0;
+
+        Server(int port, ClientHandler<T, S> *ch) : port(port), ch(ch) {}
 
         virtual void stop() = 0;
     };

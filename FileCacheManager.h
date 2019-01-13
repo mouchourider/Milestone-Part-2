@@ -11,7 +11,19 @@
 #include "CacheManager.h"
 using namespace std;
 
-class FileCacheManager : public CacheManager {
+class FileCacheManager : public CacheManager<string, string> {
     map<string, string> stringMap;
+public:
+    bool exist(string key) override;
+
+    string get(string key) override;
+
+    void set(string key, string value) override;
+
+public:
+    FileCacheManager();
+
+    FileCacheManager(const map<string, string> &stringMap);
 };
 #endif //UNTITLED1_FILECACHEMANAGER_H
+
